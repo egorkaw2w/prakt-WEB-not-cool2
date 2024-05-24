@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(100, 101, 108);
+}
+body .border {
+  border: 1px solid #000;
+}
+body .moded {
+  display: flex;
+  justify-content: center;
+}
+body .moded .rndbut {
+  border-radius: 360px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #test {
+  display: flex;
+  flex-wrap: wrap;
+}
+body #test .cardHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+  font-size: 20px;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+}
